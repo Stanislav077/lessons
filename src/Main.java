@@ -25,8 +25,8 @@ public class Main {
 */
         System.out.println("\n");
         int summ =0;
-        System.out.println(123567 / 1000 % 1000);
-        System.out.println(123567 % 1000);
+     //   System.out.println(123567 / 1000 % 1000);
+       // System.out.println(123567 % 1000);
 
          int limit = 999999;
          int count = 0;
@@ -37,6 +37,7 @@ if ((x % 10) + (x / 10) % 10 + (x / 100) % 10 == (x / 1000) % 10 + (x / 10000) %
                 count++;
             }
         }
+        //55252 билетов
         System.out.println(count);
 
     }
