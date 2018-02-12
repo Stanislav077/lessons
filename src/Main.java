@@ -2,9 +2,7 @@ import java.util.Calendar;
 
 public class Main {
 
-    static int fuctorial(int n) {
-        return (n > 0) ? n * fuctorial(n - 1) : 1;
-    }
+
 
     public static void main(String[] args) {
         /* Выведите на экран первые 11 членов последовательности Фибоначчи.
@@ -53,8 +51,7 @@ if ((x % 10) + (x / 10) % 10 + (x / 100) % 10 == (x / 1000) % 10 + (x / 10000) %
          */
         System.out.println((23/10) % 10);
         System.out.println((23 % 10));
-        Integer x = 02;
-        System.out.println(x.compareTo(20));
+
 
         for(int h = 0; h<=23;h++) {
             for(int m=0;m<60;m++){
